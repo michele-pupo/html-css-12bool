@@ -14,8 +14,16 @@ span{
 }
 
 .table{
+    max-width: 1400px;
     margin: 0 auto;
-    box-shadow: 20px 20px 20px #dedede;
+    box-shadow: 0 38px 14px -14px #333333;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
 }
 
 .small-blu{
@@ -26,6 +34,10 @@ span{
     height: 100%;
     background-color: #0025e1;
     border: ridge 8px #0025e1;
+}
+
+.shadow-right{
+    box-shadow: 28px 18px 25px -8px #333333;
 }
 
 #circle-empity {
@@ -65,5 +77,10 @@ span{
 
 .small-blu img{
     opacity: 0.4;
+    transition: 0.3s;
+}
+
+.small-blu img:hover{
+    opacity: 1;
 }
 
