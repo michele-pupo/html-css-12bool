@@ -7,8 +7,29 @@
     border: solid 1px white;
 }
 
+h1{
+    font-size: 23px;
+}
+
 h2{
     color: white;
     font-size: 20px;
     text-align: center;
+}
+
+.big-blu{
+    height: 110px;
+    background-color: #006cfa;
+    border: solid 1px white;
+    padding: 22px;
+    margin-bottom: 30px;
+}
+
+.small-green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #00e165;
+    border: solid 1px #006cfa;
 }
