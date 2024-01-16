@@ -33,3 +33,7 @@ h2{
     background-color: #00e165;
     border: solid 1px #006cfa;
 }
+
+#offset{
+    margin-top: 30px;
+}
