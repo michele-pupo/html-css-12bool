@@ -8,7 +8,7 @@
 }
 
 h1{
-    font-size: 23px;
+    font-size: 30px;
 }
 
 h2{
@@ -17,11 +17,18 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-size: 24px;
+}
+
 .big-blu{
     height: 110px;
     background-color: #006cfa;
     border: solid 1px white;
     padding: 22px;
+}
+
+.line-6{
     margin-bottom: 30px;
 }
 
@@ -36,4 +43,8 @@ h2{
 
 #offset{
     margin-top: 30px;
+}
+
+.last{
+    margin-bottom: 30px;
 }
