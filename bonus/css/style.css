@@ -13,6 +13,11 @@ span{
     color: #031732;
 }
 
+.table{
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px #dedede;
+}
+
 .small-blu{
     display: flex;
     align-items: center;
