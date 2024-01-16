@@ -1,3 +1,18 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 100px;
+    color: #6ed663
+}
+
+span{
+    color: #031732;
+}
+
 .small-blu{
     display: flex;
     align-items: center;
@@ -23,7 +38,7 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    border: ridge 8px #ffb000;
+    border: ridge 10px #ffb000;
 }
 
 #circle-red {
@@ -31,6 +46,19 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    border: ridge 8px #ff0000;
+    border: ridge 10px #ff0000;
+}
+
+.big-brown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: brown;
+    border: ridge 15px brown;
+}
+
+.small-blu img{
+    opacity: 0.4;
 }
 
